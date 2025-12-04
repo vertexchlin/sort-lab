@@ -4,7 +4,8 @@ Algorithm information and complexity data
 
 ALGORITHM_INFO = {
     'Bubble Sort': {
-        'description': 'Repeatedly steps through the list, compares adjacent elements and swaps them if in wrong order',
+        'description': 'Like bubbles rising: largest elements "bubble up" to the end. Compares neighbors and swaps if wrong order.',
+        'analogy': '🎈 Bubbles in water - biggest rise to top first!',
         'time_best': 'O(n)',
         'time_avg': 'O(n²)',
         'time_worst': 'O(n²)',
@@ -17,7 +18,8 @@ ALGORITHM_INFO = {
         ]
     },
     'Selection': {
-        'description': 'Finds the minimum element from unsorted portion and swaps it with first unsorted element',
+        'description': 'Picks the smallest from unsorted items and moves it to sorted section. Repeats until done.',
+        'analogy': '🎯 Picking tallest players first for basketball team!',
         'time_best': 'O(n²)',
         'time_avg': 'O(n²)',
         'time_worst': 'O(n²)',
@@ -32,7 +34,8 @@ ALGORITHM_INFO = {
         ]
     },
     'Insertion': {
-        'description': 'Builds sorted array one element at a time by inserting each into its correct position',
+        'description': 'Like sorting cards in your hand - pick each card and insert it in the right spot among sorted cards.',
+        'analogy': '🃏 Organizing playing cards in your hand one by one!',
         'time_best': 'O(n)',
         'time_avg': 'O(n²)',
         'time_worst': 'O(n²)',
@@ -48,7 +51,8 @@ ALGORITHM_INFO = {
         ]
     },
     'Merge Sort': {
-        'description': 'Divides array into halves, recursively sorts them, then merges the sorted halves',
+        'description': 'Divide into small pieces, sort each piece, then merge back together. Like organizing paper stacks.',
+        'analogy': '📚 Split papers into tiny piles, sort each, merge into one sorted stack!',
         'time_best': 'O(n log n)',
         'time_avg': 'O(n log n)',
         'time_worst': 'O(n log n)',
@@ -62,7 +66,8 @@ ALGORITHM_INFO = {
         ]
     },
     'Quick Sort': {
-        'description': 'Picks a pivot, partitions array around pivot, then recursively sorts partitions',
+        'description': 'Pick a "pivot", put smaller items left, larger items right. Repeat for each side until sorted.',
+        'analogy': '🎯 Party organizer: pick medium height, shorter left, taller right!',
         'time_best': 'O(n log n)',
         'time_avg': 'O(n log n)',
         'time_worst': 'O(n²)',
@@ -78,7 +83,8 @@ ALGORITHM_INFO = {
         ]
     },
     'Heap Sort': {
-        'description': 'Builds a max heap, then repeatedly extracts maximum element and rebuilds heap',
+        'description': 'Build a "heap" (tree where parent > children). Keep removing the top (max) and rebuild until done.',
+        'analogy': '🏔️ Mountain peak is always highest - keep removing peak, rebuild mountain!',
         'time_best': 'O(n log n)',
         'time_avg': 'O(n log n)',
         'time_worst': 'O(n log n)',

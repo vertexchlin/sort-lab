@@ -2,6 +2,8 @@
 
 A Python-based interactive visualization tool for understanding various sorting algorithms through animated demonstrations.
 
+> 📚 **New to sorting algorithms?** Check out our [Beginner's Guide](BEGINNER_GUIDE.md) for simple explanations with real-world examples!
+
 ## Features
 
 - **6 Sorting Algorithms**:
@@ -94,8 +96,18 @@ sort-lab/
 | Quick Sort    | O(n log n)   | O(n log n)   | O(n²)        | O(log n) |
 | Heap Sort     | O(n log n)   | O(n log n)   | O(n log n)   | O(1)     |
 
-## How It Works
+## Learning Resources
 
+### For Beginners
+If you're new to sorting algorithms or want easy-to-understand explanations:
+- 📖 Read the [Beginner's Guide](BEGINNER_GUIDE.md) - includes:
+  - Real-world analogies for each algorithm
+  - Step-by-step examples with actual numbers
+  - Simple explanations without complex jargon
+  - Tips for learning and interview prep
+  - Visual diagrams and comparisons
+
+### For Developers
 Each sorting algorithm is implemented with visualization hooks that:
 1. Update the color array to highlight comparisons and swaps
 2. Track statistics (comparisons and swaps)
